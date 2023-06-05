@@ -9,4 +9,4 @@ router.post('/products/add',createProduct)
 router.put('/products/:id/update',updateProduct)
 router.delete('/products/:id',removeProduct)
 
-export default router
+export default router ;
