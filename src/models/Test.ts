@@ -8,6 +8,7 @@ const categoryShema = new mongoose.Schema(
     products: [{ type: mongoose.Types.ObjectId, ref: "Product" }],
     nghia: String,
     dat: Number,
+    hung: String
   },
   { timestamps: true, versionKey: false }
 );
